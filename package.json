@@ -1,0 +1,22 @@
+{
+  "name": "snu-routine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snigdhamistry/snu-routine.git"
+  },
+  "author": "Snigdha Mistry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snigdhamistry/snu-routine/issues"
+  },
+  "homepage": "https://github.com/snigdhamistry/snu-routine#readme",
+  "devDependencies": {
+    "wrangler": "^3.22.4"
+  }
+}
