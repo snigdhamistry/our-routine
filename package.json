@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No Test Specified\"",
+    "dev": "wrangler pages dev public --local=true --live-reload=true --compatibility-date=2024-01-13"
   },
   "repository": {
     "type": "git",

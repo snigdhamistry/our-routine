@@ -1,3 +1,9 @@
+# Misc.
+.wrangler/
+.idea/
+temp/
+tmp/
+
 # Logs
 logs
 *.log
