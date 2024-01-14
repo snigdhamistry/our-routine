@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"No Test Specified\"",
-    "dev": "wrangler pages dev public --local=true --live-reload=true --compatibility-date=2024-01-13"
+    "dev": "wrangler pages dev public --live-reload=true --d1 DB=snu-routine-local --compatibility-date=2024-01-13"
   },
   "repository": {
     "type": "git",
