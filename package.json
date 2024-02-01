@@ -1,23 +1,23 @@
 {
-  "name": "snu-routine",
+  "name": "our-routine",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "type": "module",
   "scripts": {
     "test": "echo \"No Test Specified\"",
-    "dev": "wrangler pages dev public --live-reload=true --d1 DB=snu-routine-local --compatibility-date=2024-01-13"
+    "dev": "wrangler pages dev public --live-reload=true --d1 DB=our-routine-local --compatibility-date=2024-01-13"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/snigdhamistry/snu-routine.git"
+    "url": "git+https://github.com/snigdhamistry/our-routine.git"
   },
   "author": "Snigdha Mistry",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/snigdhamistry/snu-routine/issues"
+    "url": "https://github.com/snigdhamistry/our-routine/issues"
   },
-  "homepage": "https://github.com/snigdhamistry/snu-routine#readme",
+  "homepage": "https://github.com/snigdhamistry/our-routine#readme",
   "devDependencies": {
     "wrangler": "^3.22.4"
   }
