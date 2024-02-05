@@ -3,6 +3,7 @@
 .idea/
 temp/
 tmp/
+db/
 
 # Logs
 logs
