@@ -1,6 +1,9 @@
 export async function onRequest(context) {
+    const origin = context.request.url.split(context.functionPath)[0];
+    const headers = { "Access-Control-Allow-Origin": origin };
+
     const info = {
-        "url": context.request.url,
+        "origin": origin,
         "method": context.request.method,
         "httpProtocol": context.request.cf.httpProtocol,
         "tlsVersion": context.request.cf.tlsVersion,
@@ -14,13 +17,10 @@ export async function onRequest(context) {
         "country": context.request.cf.country,
         "continent": context.request.cf.continent,
         "timezone": context.request.cf.timezone
-    }
+    };
 
     return new Response(JSON.stringify(info, null, 2), {
         status: 200,
-        headers: {
-            "content-type": "application/json;charset=UTF-8",
-            "Access-Control-Allow-Origin": "*"
-        }
-    })
+        headers: headers
+    });
 }

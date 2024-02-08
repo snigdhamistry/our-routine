@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"No Test Specified\"",
-    "dev": "wrangler pages dev public --live-reload=true --d1 DB=our-routine-local --compatibility-date=2024-02-01"
+    "dev": "wrangler pages dev public --live-reload=true --compatibility-date=2024-02-01"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/snigdhamistry/our-routine#readme",
   "devDependencies": {
-    "wrangler": "^3.26.0"
+    "wrangler": "^3.27.0"
   }
 }

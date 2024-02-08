@@ -1,8 +1,10 @@
 # Misc.
+wrangler.toml
 .wrangler/
 .idea/
 temp/
 tmp/
+data/
 db/
 
 # Logs
